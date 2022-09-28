@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Clock - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/Clock.res" /d "NDEBUG" "D:\Books\Win98PrgBib\CDROM\Chap11\Clock\Clock.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP8064.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/Clock.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Books\Win98PrgBib\CDROM\Chap11\Clock\Clock.cpp"
+"D:\Books\Win98PrgBib\CDROM\Chap11\Clock\ClockDoc.cpp"
+"D:\Books\Win98PrgBib\CDROM\Chap11\Clock\ClockView.cpp"
+"D:\Books\Win98PrgBib\CDROM\Chap11\Clock\MainFrm.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP8064.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP8065.TMP" with contents
+[
+/nologo /MT /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/Clock.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Books\Win98PrgBib\CDROM\Chap11\Clock\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP8065.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/Clock.pdb" /machine:I386 /out:"Release/Clock.exe"  .\Release\Clock.obj .\Release\ClockDoc.obj .\Release\ClockView.obj .\Release\MainFrm.obj .\Release\StdAfx.obj .\Release\Clock.res "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Clock.cpp
+ClockDoc.cpp
+ClockView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Clock.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
